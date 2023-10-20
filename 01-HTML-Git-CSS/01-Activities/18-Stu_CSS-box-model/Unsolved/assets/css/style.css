@@ -16,3 +16,23 @@ img {
   /* TODO: Add a border property */
   border: 10px dashed red;
 }
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: #772814;  
+    
+    } 
+    .card {
+      width: 50%;
+ }
+}
+
+/* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb3fb5;
+  
+  }
+  .card { width: 100%;}
+}
